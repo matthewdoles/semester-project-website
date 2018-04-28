@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      Pastor Jordan Doles
+      Author: Matthew Doles   
+
+      Filename:         experience.html
+      Supporting files: Jordan.jpg, layout.css,
+                        stlyes.css, modernizr-1.5.js,
+						formsubmit.js, printlayout.css
+   -->
+
+      <meta charset="UTF-8" />
+      <title>Jordan Doles</title>
+      <script src="modernizr-1.5.js"></script>
+	  <script src="formsubmit.js"></script>
+	  <link href="CSS/layout.css" rel="stylesheet" type="text/css" />
+	  <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+	  <link href="CSS/printlayout.css" rel="stylesheet" media="print" />
+	  
+	  
+   </head>
+
+   <body>
+
+        <header>
+			<img src="Images/Jordan.jpg" />
+			<h1>Pastor Jordan Doles</h1>
+	    </header>
+	 
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="experience.html">Prior Experience</a></li>
+				<li><a href="sermons.html">Sermons</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	  
+		<br/>
+		
+		<h3 class="pagetitle">Contact</h3>
+		
+		<br/>
+		
+	    <section id="contact">	
+			
+			<form>
+				<fieldset id="contactFS">
+					
+					<label> Name: 
+						<input type="text" name="name" id="name" 
+							   title="Supply your name" required="true" />
+					</label>
+					<label> Title:
+						<select name="title">
+							<option value="blank"></option>
+							<option value="mr">Mr</option>
+							<option value="mrs">Mrs</option>
+							<option value="ms">Ms</option>
+							<option value="dr">Dr</option>
+						</select>
+					</label>
+					<label> E-mail: 
+						<input type="email" name="email" id="email" 
+							   title="Supply your email" required="true" />
+					</label>
+					
+					<label> Message:
+						<textarea name="message" id="message" 
+								  title="Supply your message" maxlength="500"></textarea>
+					</label>
+					<input type="button" onclick="location.href='http://quiz.html';" value="Begin Quiz" />
+					
+				</fieldset>
+			 </form>
+		 
+			 <aside>
+				<h1>Personal Information</h1>
+				<ul>
+                  <li>Phone: 317-739-7340</li>
+                  <li>Email: <a href="mailto:jdoles1572@gmail.com target="_top">jdoles1572@gmail.com</a></li>
+                  <li><a href="https://www.facebook.com/jdoles">Connect on Facebook</a></li>
+               </ul>			 
+			</aside>
+
+		</section>		
+		
+		<table id="blanktable"> 
+			
+		</table>
+		
+		<footer>
+			<p>Created by Matthew Doles. Last Updated: 12/5/2016.</p>
+		</footer>
+		
+   </body>
+
+</html>

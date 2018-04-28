@@ -1,0 +1,51 @@
+/*
+   Pastor Jordan Doles Print Styles
+   Author: Matthew Doles 
+
+   Filename: printlayout.css
+*/
+
+
+/* Print Page Layout */
+
+@page {
+	size: 8.5in 11in potrait;
+	margin: 0.5in;
+}
+
+/* Universally Hidden Elements */
+
+header, nav, footer, img  {
+	display: none;
+}
+
+/* Hide Body Box Shadow */
+
+body {
+	box-shadow: none;
+}
+
+/* experience.html Specific Styles */
+
+#experience table {
+	box-shadow: none;
+}
+
+#experience table th {
+	text-align: left;
+}
+
+#experience figcaption {
+	display: none;
+}
+
+/* contact.html Specific Styles */
+
+#contact form {
+	display: none;
+}
+
+#contact aside {
+	float: left;
+	text-align: left;
+}

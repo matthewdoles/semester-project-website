@@ -1,0 +1,160 @@
+/*
+   Pastor Jordan Doles Website Layout
+   Author: Matthew Doles 
+
+   Filename: layout.css
+*/
+
+
+/* Body Layout */
+body {
+   margin: 15px auto;
+   padding: 20px;
+   width: 850px;
+}
+
+/* Header Layout */
+
+header h1, header img {
+	margin-left: 60px;
+    display: inline-block;
+	vertical-align: middle;
+	padding: 15px;
+}
+
+/* Navigation Layout */
+
+nav ul {
+   height: 30px;
+}
+
+nav ul li {
+   float: left; 
+   width: 190px; 
+   line-height: 30px;
+   text-align: center;
+}
+
+/* Footer Layout */
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	clear: both;
+	min-width:100%;
+    max-width:100%;
+	font-size: 0.8em;
+
+}
+
+/* home.html Layout */
+
+#bio img {
+	float: right;
+	margin: 0px 0px 20px 20px;
+	
+}
+
+/* experience.html Layout */
+
+#experience {
+	font-size: 15px; 
+}
+
+#experience table {
+	border-spacing: 10px;
+	width: 850px;
+	margin-top: 20px;
+}
+
+#experience table th {
+	letter-spacing: 5px;
+}
+
+#experience figure {
+    display: inline-block;
+    margin: 20px;
+	vertical-align: middle;
+}
+
+#experience figure img {
+	border: 3px solid black;
+}
+
+#experience figure figcaption {
+    text-align: center;
+}
+
+/* sermons.html Layout */
+
+.sermons h5 {
+	margin: 0.5em 0em;
+}
+
+.sermons p {
+	margin: 1em;
+}
+
+/* contact.html Layout */
+
+#contact fieldset {
+	float: left;
+	width: 60%;
+}
+
+#contact fieldset label {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contact fieldset input {
+	float: right;
+	width: 55%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#contact fieldset select {
+	float: right;
+	width: 20%;
+	margin-right: 192px;
+}
+
+#contact fieldset textarea {
+	float: right;
+	width: 55%;
+	height: 125px;
+	margin-right: 8px;
+}
+
+#contact fieldset button {
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: 194px;
+}
+
+#contact aside {
+   float: right;
+   width: 30%;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+}
+
+#contact aside h1 {
+   height: 25px;
+   margin-left: 40px;
+}
+
+#contact aside li {
+   list-style-type: none;
+}
+
+#blanktable {
+	width: 850px;
+	border: none;
+}

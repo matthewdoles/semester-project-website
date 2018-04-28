@@ -1,0 +1,138 @@
+/*
+   Pastor Jordan Doles Website Styles
+   Author: Matthew Doles 
+
+   Filename: styles.css
+*/
+
+
+/* Default Styles */
+
+* {
+   margin: 0px;
+   font-family: Times New Roman, sans-serif;
+}
+
+/* Body Styles */
+
+body {
+	box-shadow: 20px 20px 20px rgba(211, 211, 211, 0.5), -20px -20px 20px rgba(211, 211, 211, 0.5);
+}
+
+/* Header Styles */
+
+header {
+	border: 25px solid black;
+	letter-spacing: 5px;
+}
+
+/* Navigation Styles */
+
+nav ul {
+	list-style-type: none;
+    border-bottom: 3px solid black;
+}
+
+nav li:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+nav ul li a {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+    text-decoration: none; 
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+/* Universal Header Styles */
+
+.pagetitle {
+    font-size: 25px; 
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* home.html Styles */
+
+#bio img {
+	border: 3px solid black;
+	
+}
+
+/* experience.html Styles */
+
+#experience table {
+	box-shadow: 10px 10px 10px black;
+	border: 3px solid black;
+}
+
+#experience table th {
+	background-color: red; 
+	color: white;
+}
+
+/* sermons.html Styles */
+
+.sermons h3 {
+	font-style: italic;
+	color: red;
+	text-shadow: 2px 2px gray;
+}
+
+.sermons h5 {
+	color: red;
+}
+
+.sermons p:first-of-type:first-letter {
+	float: left;
+	font-size: 3em;
+	line-height: 0.8em;
+	margin-right: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom:0.2em;
+	border-bottom: 0.02em solid;
+	border-right: 0.02em solid;
+}
+
+/* contact.html Styles */
+
+#contact fieldset {
+	background-color: grey;
+	border: 30px solid transparent;
+	border-image: url(../Images/Cross.jpg) 150 round;
+}
+
+#contact fieldset input:focus {
+	background-color: rgb(240, 225, 225);
+}
+
+#contact fieldset input:focus:valid {
+	background-color: rgb(225, 240, 225);
+}
+
+#contact fieldset input:focus:invalid {
+	background-color: rgb(240,225,225);
+}
+
+#contact aside h1 {
+   background-color: black;
+   color: white;
+}
+
+#contact aside li:nth-of-type(odd) {
+   background-color: grey;
+}
+
+#contact aside li a {
+   color: blue;
+   text-decoration: none;
+}
+
+
